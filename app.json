@@ -1,0 +1,14 @@
+{
+  "name": Kashimashi,
+  "description": "this space intentionally left blank",
+  "website": "https://github.com/CuteAsHeckClub/kashimashi/",
+  repository: "https://github.com/CuteAsHeckClub/kashimashi/",
+  "success_url": "/welcome",
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "lein test"
+      }
+    }
+  }
+}
