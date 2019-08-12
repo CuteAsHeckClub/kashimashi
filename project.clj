@@ -5,5 +5,4 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [discord.clj "2.0.0"]]
-  :plugins [[thomasa/mranderson "0.5.1"]]
   :repl-options {:init-ns kashimashi.core})
