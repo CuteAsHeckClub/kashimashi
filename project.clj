@@ -5,4 +5,7 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [discord.clj "2.0.0"]]
-  :repl-options {:init-ns kashimashi.core})
+  :repl-options {:init-ns kashimashi.core}
+  :min-lein-version "2.0.0"
+  :uberjar-name "kashimashi.jar"
+  :profiles {:production {:env {:production true}}})
